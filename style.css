@@ -34,8 +34,8 @@
 body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.6;
-    color: var(--text-color);
-    background-color: var(--bg-color);
+    color: var;
+    background-color: var;
 }
 
 h1,
@@ -43,42 +43,42 @@ h2,
 h3,
 h4 {
     font-family: 'Montserrat', sans-serif;
-    color: var(--primary-color);
-    margin-bottom: var(--spacing-md);
+    color: var;
+    margin-bottom: var;
     font-weight: 700;
 }
 
 a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: var;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: var(--accent-color);
+    color: var;
 }
 
 img {
     max-width: 100%;
     display: block;
-    border-radius: var(--radius-md);
+    border-radius: var;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 var(--spacing-md);
+    padding: 0 var;
 }
 
 .section {
-    padding: var(--spacing-xl) 0;
+    padding: var 0;
 }
 
 header {
-    background: var(--header-bg);
+    background: var;
     color: white;
-    padding: var(--spacing-md) 0;
-    box-shadow: var(--shadow-md);
+    padding: var 0;
+    box-shadow: var;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -90,11 +90,11 @@ header {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 var(--spacing-md);
+    padding: 0 var;
 }
 
 header h1 {
-    color: var(--secondary-color);
+    color: var;
     margin: 0;
     font-size: 1.8rem;
     letter-spacing: 1px;
@@ -103,7 +103,7 @@ header h1 {
 nav ul {
     list-style: none;
     display: flex;
-    gap: var(--spacing-lg);
+    gap: var;
 }
 
 nav a {
@@ -116,7 +116,7 @@ nav a {
 
 nav a:hover,
 nav a.active {
-    color: var(--secondary-color);
+    color: var;
 }
 
 nav a::after {
@@ -124,7 +124,7 @@ nav a::after {
     display: block;
     width: 0;
     height: 2px;
-    background: var(--secondary-color);
+    background: var;
     transition: width 0.3s;
 }
 
@@ -161,21 +161,21 @@ nav a:hover::after {
 .hero-content {
     position: relative;
     z-index: 2;
-    padding: var(--spacing-lg);
+    padding: var;
     max-width: 800px;
     animation: fadeIn 1s ease-out;
 }
 
 .hero h2 {
-    color: var(--secondary-color);
+    color: var;
     font-size: 3.5rem;
-    margin-bottom: var(--spacing-md);
+    margin-bottom: var;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .hero p {
     font-size: 1.25rem;
-    margin-bottom: var(--spacing-lg);
+    margin-bottom: var;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     color: #fff;
 }
@@ -183,21 +183,21 @@ nav a:hover::after {
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: var(--spacing-lg);
-    margin-top: var(--spacing-lg);
+    gap: var;
+    margin-top: var;
 }
 
 .card {
-    background: var(--card-bg);
-    border-radius: var(--radius-lg);
+    background: var;
+    border-radius: var;
     overflow: hidden;
-    box-shadow: var(--shadow-md);
+    box-shadow: var;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
     transform: translateY(-5px);
-    box-shadow: var(--shadow-lg);
+    box-shadow: var;
 }
 
 .card img {
@@ -208,60 +208,60 @@ nav a:hover::after {
 }
 
 .card-content {
-    padding: var(--spacing-lg);
+    padding: var;
 }
 
 .card h3 {
-    color: var(--primary-color);
-    margin-bottom: var(--spacing-sm);
+    color: var;
+    margin-bottom: var;
 }
 
 .btn {
     display: inline-block;
-    background-color: var(--secondary-color);
-    color: var(--text-color);
+    background-color: var;
+    color: var;
     padding: 12px 28px;
-    border-radius: var(--radius-full);
+    border-radius: var;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     border: none;
     cursor: pointer;
-    box-shadow: var(--shadow-sm);
+    box-shadow: var;
     transition: all 0.3s ease;
 }
 
 .btn:hover {
     background-color: #ffb300;
     transform: scale(1.05);
-    box-shadow: var(--shadow-md);
-    color: var(--text-color);
+    box-shadow: var;
+    color: var;
 }
 
 .btn-primary {
-    background-color: var(--primary-color);
+    background-color: var;
     color: white;
 }
 
 .btn-primary:hover {
-    background-color: var(--nav-bg);
+    background-color: var;
     color: white;
 }
 
 footer {
-    background-color: var(--footer-bg);
+    background-color: var;
     color: white;
     text-align: center;
-    padding: var(--spacing-lg) 0;
-    margin-top: var(--spacing-xl);
+    padding: var 0;
+    margin-top: var;
 }
 
 footer a {
-    color: var(--secondary-color);
+    color: var;
 }
 
 .form-group {
-    margin-bottom: var(--spacing-md);
+    margin-bottom: var;
 }
 
 input,
@@ -270,7 +270,7 @@ select {
     width: 100%;
     padding: 12px;
     border: 2px solid #ddd;
-    border-radius: var(--radius-md);
+    border-radius: var;
     font-size: 1rem;
     transition: border-color 0.3s;
 }
@@ -278,20 +278,20 @@ select {
 input:focus,
 textarea:focus {
     outline: none;
-    border-color: var(--primary-light);
+    border-color: var;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
     background: white;
-    border-radius: var(--radius-md);
+    border-radius: var;
     overflow: hidden;
-    box-shadow: var(--shadow-sm);
+    box-shadow: var;
 }
 
 th {
-    background-color: var(--primary-color);
+    background-color: var;
     color: white;
     padding: 15px;
     text-align: left;
@@ -318,4 +318,5 @@ tr:hover {
     }
 
 }
+
 
