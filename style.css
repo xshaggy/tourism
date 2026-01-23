@@ -1,6 +1,3 @@
-/* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap');
-
 :root {
     --primary-color: #cf9d3f;
     --primary-light: #97b64d;
@@ -28,7 +25,6 @@
     --radius-full: 9999px;
 }
 
-/* Base Styles */
 * {
     margin: 0;
     padding: 0;
@@ -237,7 +233,6 @@ nav a:hover::after {
 
 .btn:hover {
     background-color: #ffb300;
-    /* Darker amber */
     transform: scale(1.05);
     box-shadow: var(--shadow-md);
     color: var(--text-color);
@@ -323,3 +318,4 @@ tr:hover {
     }
 
 }
+
