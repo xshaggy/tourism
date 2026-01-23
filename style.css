@@ -2,39 +2,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap');
 
 :root {
-    /* Attractive Color Palette - "Tropical Luxe" */
     --primary-color: #cf9d3f;
-    /* Teal 800 */
     --primary-light: #97b64d;
-    /* Teal 300 */
     --secondary-color: #ffca28;
-    /* Amber 400 */
     --accent-color: #d81b60;
-    /* Pink 600 - for pops of color */
     --text-color: #263238;
-    /* Blue Grey 900 */
     --text-light: #546e7a;
-    /* Blue Grey 600 */
     --bg-color: #f5f5f5;
-    /* Grey 100 */
     --card-bg: #ffffff;
     --nav-bg: #c1c421;
     --header-bg: linear-gradient(135deg, #004d40 0%, #00695c 100%);
     --footer-bg: #102027;
-    /* Dark Blue Grey */
-
-    /* Spacing */
+    
     --spacing-sm: 8px;
     --spacing-md: 16px;
     --spacing-lg: 32px;
     --spacing-xl: 64px;
 
-    /* Shadows */
     --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
     --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
     --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
 
-    /* Border Radius */
     --radius-md: 8px;
     --radius-lg: 16px;
     --radius-full: 9999px;
@@ -80,7 +68,6 @@ img {
     border-radius: var(--radius-md);
 }
 
-/* Layout Utilities */
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -91,7 +78,6 @@ img {
     padding: var(--spacing-xl) 0;
 }
 
-/* Header & Navigation */
 header {
     background: var(--header-bg);
     color: white;
@@ -111,7 +97,6 @@ header {
     padding: 0 var(--spacing-md);
 }
 
-/* Logo styling inside header */
 header h1 {
     color: var(--secondary-color);
     margin: 0;
@@ -151,7 +136,6 @@ nav a:hover::after {
     width: 100%;
 }
 
-/* Hero Section */
 .hero {
     position: relative;
     height: 60vh;
@@ -167,7 +151,6 @@ nav a:hover::after {
     overflow: hidden;
 }
 
-/* Dark overlay for text readability */
 .hero::before {
     content: '';
     position: absolute;
@@ -201,7 +184,6 @@ nav a:hover::after {
     color: #fff;
 }
 
-/* Components: Cards */
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -238,7 +220,6 @@ nav a:hover::after {
     margin-bottom: var(--spacing-sm);
 }
 
-/* Components: Buttons */
 .btn {
     display: inline-block;
     background-color: var(--secondary-color);
@@ -272,7 +253,6 @@ nav a:hover::after {
     color: white;
 }
 
-/* Footer */
 footer {
     background-color: var(--footer-bg);
     color: white;
@@ -285,7 +265,6 @@ footer a {
     color: var(--secondary-color);
 }
 
-/* Forms */
 .form-group {
     margin-bottom: var(--spacing-md);
 }
@@ -307,7 +286,6 @@ textarea:focus {
     border-color: var(--primary-light);
 }
 
-/* Tables */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -333,7 +311,6 @@ tr:hover {
     background-color: #f9f9f9;
 }
 
-/* Animations */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -344,4 +321,5 @@ tr:hover {
         opacity: 1;
         transform: translateY(0);
     }
+
 }
